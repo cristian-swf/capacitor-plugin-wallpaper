@@ -1,3 +1,3 @@
-export interface CapacitorWallpaperPluginPlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+export interface CapacitorWallpaperPlugin {
+  setWallpaper(options: { url: string }): Promise<{ success: boolean }>;
 }
