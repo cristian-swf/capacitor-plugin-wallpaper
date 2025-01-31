@@ -5,7 +5,7 @@ Set Android Wallpaper via intent on Android
 ## Install
 
 ```bash
-npm install capacitor-plugin-wallpaper
+npm i github:cristian-swf/capacitor-plugin-wallpaper
 npx cap sync
 ```
 
