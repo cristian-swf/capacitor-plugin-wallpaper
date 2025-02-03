@@ -1,0 +1,31 @@
+{
+  "api": {
+    "name": "CapacitorWallpaperPlugin",
+    "slug": "capacitorwallpaperplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "setWallpaper",
+        "signature": "(options: { url: string; }) => Promise<{ success: boolean; }>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ url: string; }"
+          }
+        ],
+        "returns": "Promise<{ success: boolean; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "setwallpaper"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}
